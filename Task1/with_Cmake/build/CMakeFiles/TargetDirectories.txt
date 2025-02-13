@@ -1,0 +1,3 @@
+/home/m.sukhanov1/Tasks/Task1/with_Cmake/build/CMakeFiles/main.dir
+/home/m.sukhanov1/Tasks/Task1/with_Cmake/build/CMakeFiles/edit_cache.dir
+/home/m.sukhanov1/Tasks/Task1/with_Cmake/build/CMakeFiles/rebuild_cache.dir
