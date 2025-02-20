@@ -27,5 +27,5 @@ write:
 Also you can see wrong answer if you use float. This behavior I explained in my both directories in files "main.cpp".
 
 RESULTS:
-    Using double: -0.000779278
-    Using float: -644532
+    Using double: 6.28364e-07
+    Using float: 0.0943648
