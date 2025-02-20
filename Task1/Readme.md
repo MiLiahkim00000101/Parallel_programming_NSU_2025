@@ -32,3 +32,7 @@ Third is with_Make:
 
 
 Also you can see wrong answer if you use float. This behavior I explained in my both directories in files "main.cpp".
+
+RESULTS:
+    Using double: -0.000779278
+    Using float: -644532
