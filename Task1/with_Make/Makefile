@@ -1,5 +1,5 @@
 DIR = build
-CXX_FLAGS = -std=c++17 -Wall
+CXX_FLAGS = -std=c++17 -Wall -O2
 
 ifdef FLOAT
 	CXX_FLAGS += -DFLOATVALUESIN

@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <vector>
+#include <fstream>
 
 #ifdef FLOATVALUESIN
     float temp = 0;
@@ -14,15 +15,21 @@
     double res = 0;
 #endif
 
-size_t size_of_temp = sizeof(temp);
-
 int main(){
+
+    std::ofstream out;
+    out.open("../build/log.txt");
     
     for (int i = 0; i < 10000000; ++i){
 
         temp_sin_val = sin(temp);
 
         res += temp_sin_val;
+
+        if (out.is_open()){
+            out << temp_sin_val << std::endl;
+        }
+
         sin_values.push_back(temp_sin_val);
         temp += 2 * M_PI / 10000000; // здесь за такое огромное количество итераций если выбран
         // float накапливается большая ошибка из игнорирования малых значений после запятой
