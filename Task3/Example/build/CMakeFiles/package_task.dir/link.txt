@@ -1,0 +1,1 @@
+/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/bin/nvc++ -O2 CMakeFiles/package_task.dir/package_task.cpp.o -o bin/nvc++/package_task 

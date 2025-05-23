@@ -1,0 +1,1 @@
+/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/bin/nvc++ -O2 CMakeFiles/jthread_stop_callback.dir/jthread_stop_callback.cpp.o -o bin/nvc++/jthread_stop_callback 

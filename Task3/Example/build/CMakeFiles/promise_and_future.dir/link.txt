@@ -1,0 +1,1 @@
+/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/bin/nvc++ -O2 CMakeFiles/promise_and_future.dir/promise_and_future.cpp.o -o bin/nvc++/promise_and_future 

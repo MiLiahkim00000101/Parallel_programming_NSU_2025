@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfile_lib.a CMakeFiles/file_lib.dir/work_with_file_lib/file_manage.cpp.o
+/usr/bin/ranlib libfile_lib.a

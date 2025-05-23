@@ -1,0 +1,2 @@
+/usr/bin/ar qc libwatch_time_lib.a CMakeFiles/watch_time_lib.dir/time_lib/control_time.cpp.o
+/usr/bin/ranlib libwatch_time_lib.a

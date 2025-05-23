@@ -1,0 +1,4 @@
+/home/m.sukhanov1/Tasks/Task3/build/CMakeFiles/client_server_gt.dir
+/home/m.sukhanov1/Tasks/Task3/build/CMakeFiles/mult_matr_vec.dir
+/home/m.sukhanov1/Tasks/Task3/build/CMakeFiles/edit_cache.dir
+/home/m.sukhanov1/Tasks/Task3/build/CMakeFiles/rebuild_cache.dir

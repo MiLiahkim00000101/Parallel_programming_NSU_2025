@@ -1,0 +1,6 @@
+/home/m.sukhanov1/Tasks/Task2/build/CMakeFiles/watch_time_lib.dir
+/home/m.sukhanov1/Tasks/Task2/build/CMakeFiles/func_lib.dir
+/home/m.sukhanov1/Tasks/Task2/build/CMakeFiles/file_lib.dir
+/home/m.sukhanov1/Tasks/Task2/build/CMakeFiles/main.dir
+/home/m.sukhanov1/Tasks/Task2/build/CMakeFiles/edit_cache.dir
+/home/m.sukhanov1/Tasks/Task2/build/CMakeFiles/rebuild_cache.dir

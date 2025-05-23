@@ -1,0 +1,1 @@
+pgc++ -acc=host CMakeFiles/example_cublas.dir/example_cublas_with_openacc.cpp.o -o example_cublas  /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.74.0 

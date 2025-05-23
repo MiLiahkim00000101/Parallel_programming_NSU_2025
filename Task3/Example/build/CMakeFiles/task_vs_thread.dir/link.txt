@@ -1,0 +1,1 @@
+/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/bin/nvc++ -O2 CMakeFiles/task_vs_thread.dir/task_vs_thread.cpp.o -o bin/nvc++/task_vs_thread 

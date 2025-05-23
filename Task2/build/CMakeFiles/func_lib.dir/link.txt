@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfunc_lib.a CMakeFiles/func_lib.dir/func_lib/integr.cpp.o CMakeFiles/func_lib.dir/func_lib/mult_matr_vec.cpp.o
+/usr/bin/ranlib libfunc_lib.a
