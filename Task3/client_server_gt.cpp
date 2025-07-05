@@ -86,9 +86,9 @@ public:
                     results[task_id_curr] = result_value;
                 }
 
-                // std::cout << "task_id: " << task_id_curr
-                //           << " operation: " << operation
-                //           << " result: " << result_value << std::endl;
+                std::cout << "task_id: " << task_id_curr
+                          << " operation: " << operation
+                          << " result: " << result_value << std::endl;
                 
                 // В методе start() при записи в файл
                 file_out << task_id_curr << ","
@@ -124,6 +124,7 @@ public:
             double arg = std::get<1>(task_info);
             task = std::packaged_task<double()>(std::bind(fun_sqrt<double>, arg));
         } else {
+            // По-хорошему сюда надо положить except!
             return -1;
         }
 
@@ -217,7 +218,7 @@ int main() {
 
     auto client_lambda = [](const char* op, Server& s) {
         std::mt19937 mt(time(nullptr));
-        int num_of_iter = mt() % 9996 + 5;
+        int num_of_iter = 10000;
         for (int i = 0; i < num_of_iter; ++i) {
             double arg1 = (double) (rand() % 50) / 1000;
             double arg2;
